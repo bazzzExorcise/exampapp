@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect requests for the page to the new location
+RewriteRule ^old-page\.php$ /server/index.php [L,R=301]
